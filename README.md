@@ -128,3 +128,8 @@ To run the tests you should be inside the application container.
     ```
     $ docker-compose down
     ```
+    
+## NB: Ensure the project dir permission is set as follows
+        ```
+        chown -R 33:33 app
+        ```
